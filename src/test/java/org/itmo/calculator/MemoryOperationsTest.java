@@ -1,7 +1,6 @@
 package org.itmo.calculator;
 
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.params.ParameterizedTest;
 
 import java.util.Random;
 
@@ -40,7 +39,7 @@ public class MemoryOperationsTest {
         assertEquals(
                 expected,
                 calculator.resetMemory(0),
-                "Параметр конструктора '101'. Попытка очистиить ячейку M0"
+                "Параметр конструктора '101'. Попытка очистить ячейку M0"
         );
     }
 
